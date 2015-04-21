@@ -5,12 +5,12 @@
 
 Planemo setup for example:
 
-planemo tool_init --force \
-	--id 'blast_comparison' \
-	--name 'Blast report comparison' \
-	--example_command 'main.py -o dataset_dec_11_2013.tab -n dataset_aug_22_2014.tab -s dataset_log.txt' \
-	--example_input dataset_dec_11_2013.tab \
-	--example_input dataset_aug_22_2014.tab \
-	--example_output dataset_log.txt \
-	--test_case \
+planemo tool_init --force 
+	--id 'blast_comparison' 
+	--name 'Blast report comparison' 
+	--example_command 'main.py -o dataset_dec_11_2013.tab -n dataset_aug_22_2014.tab -s dataset_log.txt' 
+	--example_input dataset_dec_11_2013.tab 
+	--example_input dataset_aug_22_2014.tab 
+	--example_output dataset_log.txt 
+	--test_case 
 	--help_from_command 'main.py -h'
